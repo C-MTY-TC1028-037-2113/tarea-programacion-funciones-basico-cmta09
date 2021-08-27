@@ -1,5 +1,6 @@
 # Escribe aquí tus funciones...
-
+def volumen_prisma(b,a,p):
+    return b*a*p
 def main():
     #escribe tu código abajo de esta línea
     b = float(input("Dame la base: "))

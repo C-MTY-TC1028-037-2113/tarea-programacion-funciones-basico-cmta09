@@ -6,9 +6,7 @@ def main():
     b = float(input("Dame la base: "))
     a = float(input("Dame la altura: "))
 
-    r = area(b,a)
-
-    print("El área del rectángulo es:",r)
+    print("El área del rectángulo es:",area(b,a))
 
 if __name__=='__main__':
     main()
